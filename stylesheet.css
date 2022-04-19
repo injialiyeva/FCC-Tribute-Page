@@ -96,12 +96,17 @@ a {
 
   #main {
     margin: 0;
-    width: 95%;
-    margin: 10px auto;
+    max-width: 95%;
+    /* margin: 10px auto; */
   }
 
   ul,
   blockquote {
     max-width: 80%;
+  }
+
+  #image {
+    max-width: 100%;
+    height: auto;
   }
 }
